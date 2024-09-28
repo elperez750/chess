@@ -24,41 +24,6 @@ A classic chess game implemented in Python using the Pygame library. This projec
 
 3. Clone this repository or download the source code:
 
-
-## How to Play
-
-1. Run the game:
-
-  
-3. The game window will open, displaying the chess board with pieces in their starting positions.
-
-4. Players take turns making moves:
-- Click on a piece to select it
-- Valid moves will be highlighted
-- Click on a highlighted square to move the selected piece
-
-4. Special moves:
-- Castling: Move the king two squares towards a rook
-- En passant: Capture a pawn that has just moved two squares forward
-- Pawn promotion: When a pawn reaches the opposite end of the board, it will automatically promote to a queen
-
-5. The game ends when one player achieves checkmate or when a stalemate occurs.
-
-## Controls
-
-- Left mouse button: Select and move pieces
-- ESC: Quit the game
-
-## Project Structure
-
-- `chess_game.py`: Main game file, contains the game loop and Pygame initialization
-- `chess_engine.py`: Chess logic implementation, including move validation and game state
-- `assets/`: Directory containing image files for chess pieces and the board
-
-## Contributing
-
-Contributions to improve the game are welcome! Please feel free to submit a Pull Request.
-
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
