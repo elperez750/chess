@@ -7,47 +7,48 @@ SCREEN = pygame.display.set_mode(SIZE)
 cellSize = 70
 PIECE_SIZE = 75
 
-BLACK_BISHOP = Piece("black", "b", "/Users/elper2/Documents/Python/Chess/images/black_bishop.png")
+BLACK_BISHOP = Piece("black", "b", "./images/black_bishop.png")
 BLACK_BISHOP_IMAGE = pygame.transform.scale(pygame.image.load(BLACK_BISHOP.image), (PIECE_SIZE, PIECE_SIZE))
 
-WHITE_BISHOP = Piece("white", "b", "/Users/elper2/Documents/Python/Chess/images/white_bishop.png")
+WHITE_BISHOP = Piece("white", "b", "./images/white_bishop.png")
 WHITE_BISHOP_IMAGE = pygame.transform.scale(pygame.image.load(WHITE_BISHOP.image), (PIECE_SIZE, PIECE_SIZE))
 
 
-BLACK_KING = Piece("black", "k", "/Users/elper2/Documents/Python/Chess/images/black_king.png")
+BLACK_KING = Piece("black", "k", "./images/black_king.png")
 BLACK_KING_IMAGE = pygame.transform.scale(pygame.image.load(BLACK_KING.image), (PIECE_SIZE, PIECE_SIZE))
 
 
-WHITE_KING = Piece("white", "k", "/Users/elper2/Documents/Python/Chess/images/white_king.png")
+WHITE_KING = Piece("white", "k", "./images/white_king.png")
 WHITE_KING_IMAGE = pygame.transform.scale(pygame.image.load(WHITE_KING.image), (PIECE_SIZE, PIECE_SIZE))
 
 
-BLACK_QUEEN = Piece("black", "q", "/Users/elper2/Documents/Python/Chess/images/black_queen.png")
+BLACK_QUEEN = Piece("black", "q", "./images/black_queen.png")
 BLACK_QUEEN_IMAGE = pygame.transform.scale(pygame.image.load(BLACK_QUEEN.image), (PIECE_SIZE, PIECE_SIZE))
 
-WHITE_QUEEN = Piece("white", "q", "/Users/elper2/Documents/Python/Chess/images/white_queen.png")
+WHITE_QUEEN = Piece("white", "q", "./images/white_queen.png")
 WHITE_QUEEN_IMAGE = pygame.transform.scale(pygame.image.load(WHITE_QUEEN.image), (PIECE_SIZE, PIECE_SIZE))
 
-BLACK_KNIGHT = Piece("black", "kn", "/Users/elper2/Documents/Python/Chess/images/black_knight.png")
+BLACK_KNIGHT = Piece("black", "kn", "./images/black_knight.png")
 BLACK_KNIGHT_IMAGE = pygame.transform.scale(pygame.image.load(BLACK_KNIGHT.image), (PIECE_SIZE, PIECE_SIZE))
 
-WHITE_KNIGHT = Piece("white", "kn", "/Users/elper2/Documents/Python/Chess/images/white_knight.png")
+WHITE_KNIGHT = Piece("white", "kn", "./images/white_knight.png")
 WHITE_KNIGHT_IMAGE = pygame.transform.scale(pygame.image.load(WHITE_KNIGHT.image), (PIECE_SIZE, PIECE_SIZE))
 
-BLACK_PAWN = Piece("black", "p", "/Users/elper2/Documents/Python/Chess/images/black_pawn.png")
+BLACK_PAWN = Piece("black", "p", "./images/black_pawn.png")
 BLACK_PAWN_IMAGE = pygame.transform.scale(pygame.image.load(BLACK_PAWN.image), (PIECE_SIZE, PIECE_SIZE))
 
 
-WHITE_PAWN = Piece("white", "p", "/Users/elper2/Documents/Python/Chess/images/white_pawn.png")
+WHITE_PAWN = Piece("white", "p", "./images/white_pawn.png")
 WHITE_PAWN_IMAGE = pygame.transform.scale(pygame.image.load(WHITE_PAWN.image), (PIECE_SIZE, PIECE_SIZE))
 
 
-BLACK_ROOK = Piece("black", "r", "/Users/elper2/Documents/Python/Chess/images/black_rook.png")
+BLACK_ROOK = Piece("black", "r", "./images/black_rook.png")
 BLACK_ROOK_IMAGE = pygame.transform.scale(pygame.image.load(BLACK_ROOK.image), (PIECE_SIZE, PIECE_SIZE))
 
 
-WHITE_ROOK = Piece("white", "r", "/Users/elper2/Documents/Python/Chess/images/white_rook.png")
+WHITE_ROOK = Piece("white", "r", "./images/white_rook.png")
 WHITE_ROOK_IMAGE = pygame.transform.scale(pygame.image.load(WHITE_ROOK.image), (PIECE_SIZE, PIECE_SIZE))
+
 
 
 class Board:
